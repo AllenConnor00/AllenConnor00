@@ -22,7 +22,7 @@ The platform uses locally hosted language models, structured inference, event-dr
 
 ---
 
-### TableCoach
+### [TableCoach](https://github.com/AllenConnor00/tablecoach)
 **Proprietary project in development · Active real-world testing**  
 *Python · Flask · JavaScript · Chart.js · PDF/CSV ingestion · Data validation*
 
@@ -30,7 +30,7 @@ A restaurant operations analytics and coaching platform designed around real man
 
 TableCoach imports weekly performance scorecards, validates and reconciles incoming data, tracks employee and team trends, generates coaching workflows, and supports manager-ready reporting. It also separates modeled operational opportunities from confirmed POS outcomes so recommendations can be evaluated against real results.
 
-The application is being tested informally with permission at a LongHorn Steakhouse location. Production source and internal operational data remain private.
+The application is being tested informally with permission at a LongHorn Steakhouse location. Production source and internal operational data remain private. The linked repository is a sanitized public product and engineering showcase.
 
 ---
 

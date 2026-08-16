@@ -8,7 +8,7 @@ My recent work includes large-model security research on HPC infrastructure, ent
 
 ## Featured Work
 
-### Lantern Suite
+### [Lantern Suite](https://github.com/AllenConnor00/lantern-suite)
 **Proprietary project in development**  
 *Rust · TypeScript · React · SQLite · Local LLMs · llama.cpp*
 
@@ -18,7 +18,7 @@ A local-first AI platform built around a shared framework called **Lantern Core*
 - **Lanternfall** is an AI-driven adventure simulator designed for solo play first and group play second.
 - **Lantern Core** provides shared model integration, authoritative state, persistence, rules infrastructure, and permission-aware information delivery.
 
-The platform uses locally hosted language models, structured inference, event-driven state management, and role-specific data projections. Source remains private while the products are under active development and intended for eventual commercial release.
+The platform uses locally hosted language models, structured inference, event-driven state management, and role-specific data projections. Production source remains private while the products are under active development and intended for eventual commercial release. The linked repository is a public technical showcase rather than a source distribution.
 
 ---
 
@@ -34,7 +34,7 @@ The application is being tested informally with permission at a LongHorn Steakho
 
 ---
 
-### [Bookbinder 4](https://github.com/AllenConnor00/bookbinder-3.0)
+### [Bookbinder 4](https://github.com/AllenConnor00/bookbinder-4.0)
 **Public project**  
 *React · FastAPI · Python · PyMuPDF · PDF processing*
 

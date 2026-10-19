@@ -6,43 +6,38 @@ Computer Science graduate from Tennessee Technological University with a concent
 
 My recent work includes large-model security research on HPC infrastructure, enterprise retrieval-augmented generation, local-first AI applications, operational analytics, and modernization of legacy software.
 
-## Featured Work
+## Featured Projects
 
-### [Lantern Suite](https://github.com/AllenConnor00/lantern-suite)
-**Proprietary project in development**  
-*Rust · TypeScript · React · SQLite · Local LLMs · llama.cpp*
+These projects represent a mix of public source code and public engineering showcases for privately developed software. Each repository identifies what is available to inspect.
 
-A local-first AI platform built around a shared framework called **Lantern Core**.
+| Project | Engineering focus | Public access |
+| --- | --- | --- |
+| [Bookbinder 4](https://github.com/AllenConnor00/bookbinder-4.0) | PDF imposition, print reliability, React/FastAPI, legacy modernization | **Source available** |
+| [Forge](https://github.com/AllenConnor00/forge-showcase) | Local AI orchestration, structured project state, tool adapters, bounded execution | Engineering showcase |
+| [Lantern Suite](https://github.com/AllenConnor00/lantern-suite) | Local LLMs, authoritative state, permission-aware tabletop systems | Engineering showcase |
+| [TableCoach](https://github.com/AllenConnor00/tablecoach) | Restaurant analytics, data validation, coaching workflows, operational reporting | Engineering showcase |
+| [Ideal / Blackwater](https://github.com/AllenConnor00/ideal-blackwater-showcase) | Living-world simulation, reusable interactions, world state, prototype evaluation | Engineering showcase |
+| [Mod Studio](https://github.com/AllenConnor00/mod-studio-showcase) | Agent-assisted Minecraft mod development, approvals, asset validation | Engineering showcase |
 
-- **Lanternkeeper** is an AI-assisted virtual tabletop and private copilot for human game masters.
-- **Lanternfall** is an AI-driven adventure simulator designed for solo play first and group play second.
-- **Lantern Core** provides shared model integration, authoritative state, persistence, rules infrastructure, and permission-aware information delivery.
+### What to explore first
 
-The platform uses locally hosted language models, structured inference, event-driven state management, and role-specific data projections. Production source remains private while the products are under active development and intended for eventual commercial release. The linked repository is a public technical showcase rather than a source distribution.
+**[Bookbinder 4](https://github.com/AllenConnor00/bookbinder-4.0)** is the most directly inspectable application here. It modernizes a legacy book-imposition workflow using React, FastAPI, and PyMuPDF, with print-oriented controls and preview functionality. The repository retains attribution to the original Bookbinder 3 project.
 
----
+**[Forge](https://github.com/AllenConnor00/forge-showcase)** explores how AI-generated proposals can become reviewable development operations without giving models unrestricted execution authority. Its private implementation includes a TypeScript CLI and an adapter-based workflow; the public repository explains the architecture and limitations.
 
-### [TableCoach](https://github.com/AllenConnor00/tablecoach)
-**Proprietary project in development**  
-*Python · Flask · JavaScript · Chart.js · PDF/CSV ingestion · Data validation*
+**[Lantern Suite](https://github.com/AllenConnor00/lantern-suite)** develops two local-first tabletop products on shared state, inference, and rules infrastructure. The public documentation discusses replayability, structured model output, and information-access boundaries.
 
-A restaurant operations analytics and coaching platform designed around real management workflows.
+**[TableCoach](https://github.com/AllenConnor00/tablecoach)** focuses on practical restaurant management workflows, including scorecard ingestion, data-quality review, trend analysis, and coaching follow-up. Its public repository does not contain internal operational data or proprietary application source.
 
-TableCoach imports weekly performance scorecards, validates and reconciles incoming data, tracks employee and team trends, generates coaching workflows, and supports manager-ready reporting. It also separates modeled operational opportunities from confirmed POS outcomes so recommendations can be evaluated against real results.
+**[Ideal / Blackwater](https://github.com/AllenConnor00/ideal-blackwater-showcase)** investigates persistent simulation and everyday interaction systems. The prototype has demonstrated bounded object interactions, while larger living-world and experiential goals remain in development.
 
-The application is informed by firsthand restaurant operations experience and informal feedback; it is not an official LongHorn Steakhouse or Darden Restaurants product. Production source and internal operational data remain private. The linked repository is a public product and engineering showcase without the proprietary implementation or internal operational data.
+**[Mod Studio](https://github.com/AllenConnor00/mod-studio-showcase)** explores conversational, agent-assisted Minecraft mod creation. Its engineering documentation separates an existing deterministic skin-validation workflow and early controller tooling from the longer-term autonomous creation vision.
 
----
-
-### [Bookbinder 4](https://github.com/AllenConnor00/bookbinder-4.0)
-**Public project**  
-*React · FastAPI · Python · PyMuPDF · PDF processing*
-
-A local-first modernization of the legacy Bookbinder 3 desktop application for generating printable bookbinding signatures from PDFs.
-
-The new application replaces the older Java/Jython-era workflow with a React frontend and FastAPI/PyMuPDF backend while adding PDF health checks, rendered sheet previews, printer calibration, creep and gutter controls, sewing marks, and print-focused validation.
+> **Source availability:** The five engineering showcases contain public descriptions of privately maintained implementations. They are not runnable source distributions. Only Bookbinder 4 in the table above currently offers its application source publicly.
 
 ---
+
+## Research and Team Experience
 
 ### Enterprise Local-LLM RAG Capstone
 **Tennessee Technological University corporate capstone for Averitt**  
